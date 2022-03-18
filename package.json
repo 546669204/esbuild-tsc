@@ -1,0 +1,19 @@
+{
+  "name": "esbuild-tsc",
+  "version": "1.0.0",
+  "description": "fast tsc",
+  "main": "index.js",
+  "repository": "git@github.com:546669204/esbuild-tsc.git",
+  "author": "546669204 <546669204@qq.com>",
+  "license": "Apache2",
+  "bin": {
+    "etsc": "./bin/etsc"
+  },
+  "peerDependencies": {
+    "esbuild": ">=0.14.27",
+    "typescript": ">=4.5.2"
+  },
+  "dependencies": {
+    "tsconfig-paths": "^3.14.0"
+  }
+}
